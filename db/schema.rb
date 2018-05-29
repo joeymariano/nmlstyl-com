@@ -10,23 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180116060749) do
+ActiveRecord::Schema.define(version: 2018_05_29_212513) do
 
-  create_table "musicians", force: :cascade do |t|
-    t.string "username"
-    t.string "password_digest"
-  end
-
-  create_table "reviews", force: :cascade do |t|
-    t.string "content"
-    t.integer "musician_id"
-    t.integer "venue_id"
-  end
-
-  create_table "venues", force: :cascade do |t|
+  create_table "emails", force: :cascade do |t|
+    t.string "email"
     t.string "name"
-    t.string "location"
-    t.string "maps_url"
   end
 
 end
