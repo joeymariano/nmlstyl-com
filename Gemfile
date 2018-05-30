@@ -5,7 +5,8 @@ gem 'sinatra-activerecord'
 gem 'sinatra-flash'
 gem "activemodel"
 gem 'require_all'
-gem "pg"
+gem 'pg'
+gem 'rack'
 
 
 
