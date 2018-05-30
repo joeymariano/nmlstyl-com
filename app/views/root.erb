@@ -1,0 +1,46 @@
+<div class="container">
+
+  <div class="row">
+    <!-- ηмlsтүl -->
+    <div class="col-sm-6"><header><h1>ηmlstyl</h1></header></div>
+    <div class="col-sm-6"><img class="img-fluid glitch" src="images/sketch.gif"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+                          <h2>LISTEN</h2>
+                          <h3><a href="https://nmlstyl.bandcamp.com">bandcamp</a></h2>
+                          <h3><a href="https://youtube.com/c/nmlstyl">youtube</a></h2>
+                          <h3><a href="https://geo.itunes.apple.com/us/artist/nmlstyl/1250457183?mt=1&app=music">itunes</a></h2>
+                          <h3><a href="https://open.spotify.com/artist/56JCupuBEDAZTenoiH4VVw?si=uIpKz8s9QbWrdIexIHBNJA">spotify</a></h2>
+                          <h2>SOCIAL</h2>
+                          <h3><a href="https://twitter.com/nmlstyl">twitter</a></h2>
+                          <h3><a href="https://instagram.com/nmlstyl">instagram</a></h2>
+                          <h3><a href="https://facebook.com/nmlstyl">facebook</a></h2>
+
+    </div>
+    <div class="col-sm-4">
+      <img class='img-fluid artist-pic' src="images/pulswave-nmlstyl-pic.jpg">
+    </div>
+    <div class="col-sm-4">
+      <img class='img-fluid artist-pic' src="images/photo_by_chiptography.com.jpg">
+    </div>
+  </div>
+
+  <div class="row">
+
+    <form action="/email" method="POST">
+      <div class="form-group">
+        <% if flash.now.include?(:notice) %>
+          <label for="email"><%= flash.now[:notice] %></label>
+        <% else %>
+          <label for="email">email list to be notified of shows and releases:</label>
+        <% end %>
+        <input type="email" class="form-control" id="email" name="email">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+  </div>
+      <footer>copyright joey michalina mariano 2018 - photos courtesty of Sochi Thomas and Chiptography.com</footer>
+</div>

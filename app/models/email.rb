@@ -1,4 +1,4 @@
-class Review < ActiveRecord::Base
-  belongs_to :musician
-  belongs_to :venue
+class Email < ActiveRecord::Base
+  validates :email, presence: true
+  validates :email, uniqueness: true
 end

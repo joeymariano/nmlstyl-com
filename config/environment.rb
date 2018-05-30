@@ -2,8 +2,8 @@ require 'bundler/setup'
 Bundler.require(:default)
 
 ActiveRecord::Base.establish_connection(
-  :adapter => "postgresql",
-  :database => "db/emails.postgresql"
+  :adapter => "sqlite3",
+  :database => "db/emails.sql"
 )
 
 require_all 'app'

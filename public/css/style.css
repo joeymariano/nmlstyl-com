@@ -1,44 +1,108 @@
+/* blue: #66d9ef  rgb(102, 217, 239)
+green: #45c468  rgb(69, 196, 104)
+pink: #ff79c6  	rgb(255, 121, 198)
+purple:  #bd93f9  	rgb(189, 147, 249)
+bg: #282a36  	rgb(40, 42, 54) */
+
 body {
-  font-family: Arial, serif;
-  color: white;
-  background: linear-gradient(#888888, black);
-  background-attachment: fixed;
-  height: 100vh;
-  margin-left: 20px;
+  background-color: black;
+  /* background-image: url('../images/sketch-still.gif');
+  background-repeat: repeat;
+  background-attachment: fixed; */
 }
+
 h1 {
-  font-size: 3em;
+  font-size: 9em;
   font-weight: bolder;
+  color: white;
+  margin-left: -12px;;
 }
+
+h2 {
+  color: #999999;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  letter-spacing: 1.2em;
+}
+
+h3 {
+  color: #ff79c6;
+  font-size: 1.5em;
+  letter-spacing: .8em;
+  margin-top: 8px;
+}
+
+.glitch {
+  padding: 30px 30px 30px 0;
+}
+
+.container {
+  background-color: black;
+}
+
+.artist-pic {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+form {
+  margin-top: 25px;
+  margin-left: 10px;
+  color: #999999;
+}
+
+.form-control {
+  background-color: #282a36;
+  border: 0;
+}
+
+.form-control::after {
+  background-color: #282a36;
+  border: 0;
+  color: white;
+}
+
+
+#email {
+  background-color: #282a36;
+  border: 0;
+  color: white;
+}
+
+.btn {
+  background-color: #282a36;
+  border: 0;
+  color: #999999;;
+}
+
+footer {
+  color: #999999;
+  font-size: .8em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 /* unvisited link */
 a:link {
-    color: hotpink;
-    text-decoration: none;
+    color: #bd93f9;
 }
 
 /* visited link */
 a:visited {
-    color: hotpink;
-    text-decoration: none;
+    color: #bd93f9;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
     text-decoration: none;
-    font-style: italic;
+    background-color: #66d9ef;
+    color: black;
 }
 
 /* selected link */
 a:active {
-    color: hotpink;
+    color: #66d9ef;
     text-decoration: none;
-}
-
-header li{
-  display: inline;
-  list-style: none;
-}
-li {
-  list-style: none;
 }
