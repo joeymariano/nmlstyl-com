@@ -6,7 +6,6 @@ gem 'sinatra-flash'
 gem "activemodel"
 gem 'require_all'
 gem "pg"
-gem 'thin'
 
 
 
