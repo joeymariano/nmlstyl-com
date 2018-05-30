@@ -5,7 +5,7 @@ gem 'sinatra-activerecord'
 gem 'sinatra-flash'
 gem "activemodel"
 gem 'require_all'
-gem 'sqlite3'
+gem "pg"
 gem 'thin'
 
 

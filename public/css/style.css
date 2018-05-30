@@ -77,6 +77,11 @@ form {
   color: #999999;;
 }
 
+.songkick {
+  margin-left: -22px;
+  margin-top: 20px;
+}
+
 footer {
   color: #999999;
   font-size: .8em;

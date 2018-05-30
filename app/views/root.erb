@@ -28,18 +28,26 @@
   </div>
 
   <div class="row">
+    <div class="col-sm-6 songkick">
+      <a href="https://www.songkick.com/artists/8980439" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-font-color="#bd93f9 " data-background-color="transparent" style="margin-left:-25px;">Nmlstyl tour dates</a>
+      <script src="//widget.songkick.com/8980439/widget.js"></script>
+    </div>
 
-    <form action="/email" method="POST">
-      <div class="form-group">
-        <% if flash.now.include?(:notice) %>
-          <label for="email"><%= flash.now[:notice] %></label>
-        <% else %>
-          <label for="email">email list to be notified of shows and releases:</label>
-        <% end %>
-        <input type="email" class="form-control" id="email" name="email">
-      </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+    <div class="col-sm-6">
+      <form action="/email" method="POST">
+        <div class="form-group">
+          <% if flash.now.include?(:notice) %>
+            <label for="email"><%= flash.now[:notice] %></label>
+          <% else %>
+            <label for="email">email list to be notified of shows and releases:</label>
+          <% end %>
+          <input type="email" class="form-control" id="email" name="email">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form><br /><br />
+
+
+    </div>
 
   </div>
       <footer>copyright joey michalina mariano 2018 - photos courtesty of Sochi Thomas and Chiptography.com</footer>
