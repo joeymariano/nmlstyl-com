@@ -7,6 +7,7 @@ gem "activemodel"
 gem 'require_all'
 gem 'pg'
 gem 'rack'
+gem 'rake'
 
 
 
