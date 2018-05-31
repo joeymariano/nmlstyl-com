@@ -69,6 +69,7 @@ DEPENDENCIES
   activemodel
   pg
   pry
+  rack
   rake
   require_all
   shotgun
