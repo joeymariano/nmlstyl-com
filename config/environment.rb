@@ -1,9 +1,7 @@
 require 'bundler/setup'
 Bundler.require(:default)
 
-ActiveRecord::Base.establish_connection(
-  :adapter => "postgresql",
-  :database => "db/emails.postgresql"
-)
+dbconfig = YAML::load(File.open('config/database.yml'))[env]
+ActiveRecord::Base.establish_connection(dbconfig)
 
 require_all 'app'
