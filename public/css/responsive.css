@@ -1,0 +1,117 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .container {
+    text-align: center;
+  }
+  .glitch {
+    /* top | right | bottom | left */
+    padding: 20px 30px 20px 30px;
+  }
+
+  .glitch .img{
+    max-width: 300px;
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display:inline;
+  }
+  h1{
+    font-size: 8em;
+  }
+  h2 {
+    font-size: 2.5em;
+    letter-spacing: 1em;
+    margin-left: 1em;
+  }
+  h3 {
+    font-size: 1.7em;
+    letter-spacing: .9em;
+    margin-left: .9em;
+  }
+  .form-group {
+    font-size: 1em;
+    font-weight:100;
+  }
+  .songkick {
+    font-size: 1.1em;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media(min-width:576px) and (max-width:767px) {
+  .container {
+    text-align: center;
+  }
+  .glitch {
+    /* top | right | bottom | left */
+    padding: 10px 25px 10px 20px;
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display:inline;
+  }
+  h2 {
+    font-size: 2.8em;
+    letter-spacing: 1.2em;
+    margin-left: 1.2em;
+  }
+  h3 {
+    font-size: 2.2em;
+    letter-spacing: 1em;
+    margin-left: 1em;
+  }
+  form {
+    font-size: 1.5em;
+    font-weight:100;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media(min-width:768px) and (max-width:991px) {
+  h1{
+    font-size: 7em;
+  }
+  h2 {
+    font-size: 1.4em;
+    letter-spacing: 1.3em;
+    /* top | right | bottom | left */
+    margin: 15px 0 0 0;
+  }
+  h3 {
+    font-size: 1.1em;
+    letter-spacing: 1em;
+    margin-top: 6px;
+  }
+  .songkick {
+    font-size: .8em;
+  }
+  form {
+    font-size: .9em;
+  }
+  footer {
+    font-size: .9em;
+  }
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media(min-width:992px) and (max-width:1199px) {
+  h1 {
+    font-size: 9em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.3em;
+    letter-spacing: 1.1em;
+  }
+  footer {
+    font-size: .9em
+  }
+  .songkick {
+    /* top | right | bottom | left */
+    margin: 20px 0 0 -22px;
+    font-size: 1em;
+  }
+}
+
+/* // Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
