@@ -1,119 +1,42 @@
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-  .container {
-    text-align: center;
-  }
-  .glitch {
-    /* top | right | bottom | left */
-    padding: 20px 30px 20px 30px;
-  }
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
 
-  .glitch .img{
-    max-width: 300px;
-  }
-  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    display:inline;
-  }
-  h1{
-    /* top | right | bottom | left */
-    font-size: 7em;
-  }
-  h2 {
-    font-size: 2.3em;
-    letter-spacing: .95em;
-  }
-  h3 {
-    font-size: 1.5em;
-    letter-spacing: .88em;
-  }
-  .form-group {
-    font-size: 1em;
-    font-weight:100;
-  }
-  .songkick {
-    font-size: 1.1em;
-  }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
 }
 
-/* // Small devices (landscape phones, less than 768px) */
-@media(min-width:576px) and (max-width:767px) {
-  .container {
-    text-align: center;
-  }
-  .glitch {
-    /* top | right | bottom | left */
-    padding: 10px 25px 10px 20px;
-  }
-  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    display:inline;
-  }
-  h1 {
-    font-size: 9em;
-  }
-  h2 {
-    font-size: 2.8em;
-    letter-spacing: 1.2em;
-    margin-left: 1.2em;
-  }
-  h3 {
-    font-size: 2.2em;
-    letter-spacing: 1em;
-    margin-left: 1em;
-  }
-  form {
-    font-size: 1.5em;
-    font-weight:100;
-  }
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
 }
 
-/* // Medium devices (tablets, less than 992px) */
-@media(min-width:768px) and (max-width:991px) {
-  h1{
-    font-size: 7em;
-  }
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   h2 {
-    font-size: 1.4em;
-    letter-spacing: 1.3em;
-    /* top | right | bottom | left */
-    margin: 15px 0 0 0;
+    font-size: 1.6em;
   }
   h3 {
-    font-size: 1.1em;
-    letter-spacing: 1em;
-    margin-top: 6px;
+    font-size: 1.2em;
+      /* top | right | bottom | left */
+    padding: 0 0 0 0;
   }
-  .songkick {
+  footer{
     font-size: .8em;
   }
-  form {
-    font-size: .9em;
-  }
-  footer {
-    font-size: .9em;
-  }
- }
-
-/* // Large devices (desktops, less than 1200px) */
-@media(min-width:992px) and (max-width:1199px) {
-  h1 {
-    font-size: 9em;
-  }
-  h2 {
-    font-size: 2em;
-  }
-  h3 {
-    font-size: 1.3em;
-    letter-spacing: 1.1em;
-  }
-  footer {
-    font-size: .9em
-  }
-  .songkick {
-    /* top | right | bottom | left */
-    margin: 20px 0 0 -22px;
-    font-size: 1em;
-  }
 }
 
-/* // Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width */
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 1.9em;
+  }
+  h3 {
+    font-size: 1.4em;
+      /* top | right | bottom | left */
+    padding: 0 0 0 0;
+  }
+  footer{
+    font-size: .8em;
+  }
+}

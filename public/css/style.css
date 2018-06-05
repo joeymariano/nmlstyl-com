@@ -12,10 +12,11 @@ body {
 }
 
 h1 {
-  font-size: 11em;
+  font-size: 8em;
   font-weight: bolder;
   color: white;
-  margin-left: -12px;
+  padding: 0;
+  margin-left: -10px;
 }
 
 h2 {
@@ -23,16 +24,16 @@ h2 {
   font-size: 2.2em;
   font-weight: bold;
   margin-bottom: 8px;
-  letter-spacing: 1.1em;
+  letter-spacing: 1.4em;
   /* top | right | bottom | left */
-  margin: 20px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 h3 {
   color: #ff79c6;
   font-size: 1.8em;
-  letter-spacing: .7em;
-  margin-top: 8px;
+  letter-spacing: 1em;
+  padding-top: 20px;
 }
 
 .glitch {
@@ -52,8 +53,7 @@ h3 {
 }
 
 form {
-  margin-top: 25px;
-  margin-left: 10px;
+  padding-top: 25px;
   color: #999999;
 }
 
@@ -86,7 +86,8 @@ iframe {width: 100%}
 .songkick {
   font-family: Arial;
   /* top | right | bottom | left */
-  margin: 20px 0 0 -22px;
+  padding-top: 20px;
+  margin: 0 0 0 -22px;
   font-size: 1.2em;
   text-transform: lowercase;
   color: #999999;
@@ -96,9 +97,9 @@ iframe {width: 100%}
 
 footer {
   color: #999999;
-  font-size: 1em;
+  font-size: .7em;
   /* top | right | bottom | left */
-  margin: 0 0 40px 0;
+  padding: 0 0 40px 0;
 }
 
 /* unvisited link */
