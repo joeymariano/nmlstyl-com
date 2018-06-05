@@ -106,6 +106,11 @@ footer {
 /* unvisited link */
 a:link {
     color: #bd93f9;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
 }
 
 /* visited link */
@@ -118,6 +123,11 @@ a:hover {
     text-decoration: none;
     background-color: #66d9ef;
     color: black;
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -ms-transition: all 0s ease;
+    -o-transition: all 0s ease;
+    transition: all 0s ease;
 }
 
 /* selected link */
