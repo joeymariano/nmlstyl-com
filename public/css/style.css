@@ -69,6 +69,14 @@ form {
   color: white;
 }
 
+#email:focus {
+  color: #000;
+  background-color: #66d9ef;
+  border-color: #66d9ef;
+  font-weight: bold;
+  outline: none;
+}
+
 
 #email {
   background-color: #282a36;
