@@ -1,7 +1,7 @@
-nmlstyl.com
+# nmlstyl.com
 ======
 
-# License
+## License
 
 * images and content are copyright joey michalina mariano
 
