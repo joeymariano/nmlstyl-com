@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+ruby '2.5.1'
+
 gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'sinatra-flash'
@@ -12,6 +14,7 @@ gem 'rake'
 
 
 group :development do
+  gem 'dotenv'
   gem 'rake'
   gem 'pry'
   gem 'tux'

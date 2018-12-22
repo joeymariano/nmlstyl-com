@@ -1,3 +1,6 @@
+# require 'net/http'
+# require 'json'
+
 class ApplicationController < Sinatra::Base
 
   set :public_folder, 'public'
@@ -7,6 +10,11 @@ class ApplicationController < Sinatra::Base
   register Sinatra::Flash
 
   get '/' do
+    # url = 'https://api.songkick.com/api/3.0/artists/8980439/calendar.json?apikey=' + ENV['SONGKICK_API_KEY']
+    # uri = URI(url)
+    # response = Net::HTTP.get(uri)
+    # result = JSON.parse(response)
+    # @events = result['resultsPage']['results']['event']
     erb :'root'
   end
 
