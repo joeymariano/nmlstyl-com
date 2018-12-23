@@ -1,7 +1,4 @@
-![nmlstyl](http://www.nmlstyl.com/images/nmlstyl.png)
-
-
-# nmlstyl.com
+# [nmlstyl.com](http://www.nmlstyl.com)
 
 ## License
 
