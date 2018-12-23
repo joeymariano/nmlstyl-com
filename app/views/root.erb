@@ -28,11 +28,18 @@
   </div>
 
   <div class="row">
-    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 songkick">
-      <a href="https://www.songkick.com/artists/8980439" class="songkick-widget" data-theme="light" data-detect-style="true"  data-background-color="transparent">Nmlstyl tour dates</a>
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
-      <script src="//widget.songkick.com/8980439/widget.js"></script>
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+      <h4>UPCOMING SHOWS</h4>
+        <% if @events %>
+          <% @events.each do |event| %>
+            <ul>
+              <li><a href='<%= event['venue']['uri'].downcase %>'>songkick.com link</a>
+              <li><%= event['displayName'].downcase %></li>
+              <li>city: <%= event['location']['city'].downcase %></li>
+              <li>venue: <a href="<%= event['venue']['uri'] %>"><%= event['venue']['displayName'].downcase %></a></li>
+            </ul>
+          <% end %>
+        <% end %>
     </div>
 
     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">

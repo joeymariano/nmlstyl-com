@@ -9,6 +9,7 @@ body {
   /* background-image: url('../images/sketch-still.gif');
   background-repeat: repeat;
   background-attachment: fixed; */
+  color: #999999;
 }
 
 h1 {
@@ -34,6 +35,13 @@ h3 {
   font-size: 1.1em;
   letter-spacing: .9em;
   padding-top: 20px;
+}
+
+h4{
+  margin-top: 30px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  letter-spacing: .4em;
 }
 
 .glitch {
@@ -90,18 +98,16 @@ form {
   color: #999999;;
 }
 
-iframe {width: 100%}
-
-.songkick {
-  font-family: Arial;
-  /* top | right | bottom | left */
-  padding-top: 20px;
-  margin: 0 0 0 -22px;
-  font-size: .95em;
-  text-transform: lowercase;
-  color: #999999;
+ul{
+  margin-bottom: 12px;
+  list-style-type: none;
+  padding-left: 0;
+  letter-spacing: .1em;
 }
 
+ul a{
+  letter-spacing: .4em;
+}
 
 
 footer {
