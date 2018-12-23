@@ -33,7 +33,7 @@
         <% if @events %>
           <% @events.each do |event| %>
             <ul>
-              <li><a href='<%= event['venue']['uri'].downcase %>'>songkick.com link</a>
+              <li><a href='<%= event['uri'].downcase %>'>songkick.com link</a>
               <li><%= event['displayName'].downcase %></li>
               <li>city: <%= event['location']['city'].downcase %></li>
               <li>venue: <a href="<%= event['venue']['uri'] %>"><%= event['venue']['displayName'].downcase %></a></li>
