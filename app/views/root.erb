@@ -39,6 +39,10 @@
               <li>venue: <a href="<%= event['venue']['uri'] %>"><%= event['venue']['displayName'].downcase %></a></li>
             </ul>
           <% end %>
+        <% else %>
+          <ul>
+            <li>no shows have been announced.</a>
+          </ul>
         <% end %>
     </div>
 
