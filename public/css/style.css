@@ -109,6 +109,14 @@ ul a{
   letter-spacing: .4em;
 }
 
+#songkickimg{
+  margin-bottom: 5px;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  border-width:13px;
+}
+
 
 footer {
   color: #999999;
