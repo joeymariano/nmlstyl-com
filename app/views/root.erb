@@ -29,7 +29,12 @@
 
   <div class="row">
     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-      <h4>UPCOMING SHOWS<a href='http://songkick.com'><img id='songkickimg' src='/images/songkick.png'></a></h4>
+      <div id='showwrapper'>
+      <h4>UPCOMING SHOWS</h4>&nbsp;&nbsp;&nbsp;
+      <a href='http://songkick.com'><div id="skcontainer">
+          <img class='img-fluid' src="/images/songkick.png" />
+        </div></a>
+        </div>
         <% if @events %>
           <% @events.each do |event| %>
             <ul>
