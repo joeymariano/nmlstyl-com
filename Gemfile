@@ -2,12 +2,12 @@ source 'http://rubygems.org'
 
 ruby '2.5.1'
 
-gem "sinatra", ">= 2.0.2"
+gem 'sinatra', '~> 2.0', '>= 2.0.5'
 gem 'sinatra-activerecord'
-gem 'sinatra-flash'
+gem 'sinatra-flash', '~> 0.3.0'
 gem "activemodel"
 gem 'require_all'
-gem 'pg'
+gem 'pg', '~> 1.1', '>= 1.1.4'
 gem "rack", ">= 2.0.6"
 gem 'rake', :groups => [:development, :production]
 

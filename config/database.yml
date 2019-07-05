@@ -1,16 +1,18 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: emails
   pool: 2
-  username: joey
-  password: ventsoftrench35
+  host: <%= ENV['DATABASE_URL'] %>
+  database: <%= ENV['DATABASE_NAME'] %>
+  username: <%= ENV['DATABASE_USER'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+
 
 production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  host: ENV['DATABASE_URL']
-  database: ENV['DATABASE_NAME']
-  username: ENV['DATABASE_USER']
-  password: ENV['DATABASE_PASSWORD']
+  host: <%= ENV['DATABASE_URL'] %>
+  database: <%= ENV['DATABASE_NAME'] %>
+  username: <%= ENV['DATABASE_USER'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>

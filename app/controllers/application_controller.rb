@@ -1,11 +1,13 @@
 require 'net/http'
 require 'json'
+require 'sinatra/flash'
 
 class ApplicationController < Sinatra::Base
-
+  enable :sessions
+  register Sinatra::Flash
   set :public_folder, 'public'
   set :views, 'app/views'
-  register Sinatra::Flash
+
 
   before do
     if Sinatra::Base.environment == :development

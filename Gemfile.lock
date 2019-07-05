@@ -69,15 +69,15 @@ PLATFORMS
 DEPENDENCIES
   activemodel
   dotenv
-  pg
+  pg (~> 1.1, >= 1.1.4)
   pry
   rack (>= 2.0.6)
   rake
   require_all
   shotgun
-  sinatra (>= 2.0.2)
+  sinatra (~> 2.0, >= 2.0.5)
   sinatra-activerecord
-  sinatra-flash
+  sinatra-flash (~> 0.3.0)
   tux
 
 RUBY VERSION
