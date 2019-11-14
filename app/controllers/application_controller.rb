@@ -9,7 +9,7 @@ class ApplicationController < Sinatra::Base
   set :views, 'app/views'
 
 
-  before do
+  before do  # necessary for Heroku to load ENV values
     if Sinatra::Base.environment == :development
       require 'dotenv/load'
     end

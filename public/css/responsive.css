@@ -8,6 +8,7 @@
   }
   h3 {
     font-size: 1.4em;
+    margin-left: 0px !important;
   }
   footer{
     font-size: .9em;
@@ -24,6 +25,7 @@
   }
   h3 {
     font-size: 1.8em;
+      margin-left: 0px !important;
   }
   footer{
     font-size: 1em;
