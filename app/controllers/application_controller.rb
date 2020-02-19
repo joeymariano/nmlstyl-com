@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     response = Net::HTTP.get(uri)
     result = JSON.parse(response)
     @events = result['resultsPage']['results']['event']
-    erb :'root'
+    erb :'index'
   end
 
   post '/email' do
