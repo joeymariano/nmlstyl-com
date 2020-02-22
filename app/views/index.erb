@@ -1,29 +1,32 @@
-<% require 'sinatra/flash' %>
-
-<div class="container">
-
   <div class="row">
-    <!-- ηmlstyl -->
-    <div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12"><img class="img-fluid" src="images/nmlstyl.png"></div>
-    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12"><img class="img-fluid glitch" src="images/sketch-big.gif"></div>
-  </div>
+    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+      <div id="main-list-wrapper">
+        <div id="listen-links-div">
+          <h2>listen</h2>
+          <ul id="listen-links-list">
+            <li class="main-list-li"><a class="main-list-link" href="https://nmlstyl.bandcamp.com">bandcamp</a></li>
+            <li class="main-list-li"><a class="main-list-link" href="https://youtube.com/c/nmlstyl">youtube</a></li>
+            <li class="main-list-li"><a class="main-list-link" href="https://geo.itunes.apple.com/us/artist/nmlstyl/1250457183?mt=1&app=music">itunes</a></li>
+            <li class="main-list-li"><a class="main-list-link" href="https://open.spotify.com/artist/56JCupuBEDAZTenoiH4VVw?si=uIpKz8s9QbWrdIexIHBNJA">spotify</a></li>
+          </ul>
+        </div>
 
-  <div class="row">
-    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 text-center text-sm-center text-md-left">
-        <h2>listen</h2>
-        <h3><a href="https://nmlstyl.bandcamp.com">bandcamp</a></h3>
-        <h3><a href="https://youtube.com/c/nmlstyl">youtube</a></h3>
-        <h3><a href="https://geo.itunes.apple.com/us/artist/nmlstyl/1250457183?mt=1&app=music">itunes</a></h3>
-        <h3><a href="https://open.spotify.com/artist/56JCupuBEDAZTenoiH4VVw?si=uIpKz8s9QbWrdIexIHBNJA">spotify</a></h3>
-        <h2>social</h3>
-        <h3><a href="https://twitter.com/nmlstyl">twitter</a></h3>
-        <h3><a href="https://instagram.com/nmlstyl">instagram</a></h3>
-        <h3><a href="https://facebook.com/nmlstyl">facebook</a></h3>
+        <div id="social-links-div">
+          <h2>social</h2>
+          <ul id="social-links-list">
+            <li class="main-list-li"><a class="main-list-link" href="https://twitter.com/nmlstyl">twitter</a></li>
+            <li class="main-list-li"><a class="main-list-link" href="https://instagram.com/nmlstyl">instagram</a></li>
+            <li class="main-list-li"><a  href="https://facebook.com/nmlstyl">facebook</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
       <img class='img-fluid artist-pic' src="images/nmlstyl-live.jpg">
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
       <img class='img-fluid artist-pic' src="images/picks.jpg">
     </div>
   </div>
@@ -70,23 +73,17 @@
   <br />
 
   <div class="row">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-      <h4>bio</h4><br>
+    <div class="col-xl-12">
+    <h4 id="bio-header">bio</h4>
       <p> Ms. Joey Michalina Mariano is a Philadelphia based coder, musician, and artist. She created the nmlstyl project in 2001. Originally called 'animal style' the name was later obfiscated to provide a cryptic illusion to past projects. Rob Martino joins her on drums and fills out the project's acoustic drum kit needs. Joey is also Cheap Dinosaurs' guitarist and creates soundtracks that can be heard in various indie, homebrew video games and digital media.</p>
     </div>
   </div>
 
-  <br />
-
   <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-      <h4>performances</h4>
+      <h4>live</h4>
     </div>
-  </div>
 
-  <br />
-
-  <div class="row">
     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
       <iframe width="100%" height="315" src="https://www.youtube.com/embed/FJU_yn7AsNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -96,12 +93,3 @@
     </div>
   </div>
 
-  <br />
-
-  <footer>
-    photo courtesty of <a href="https://www.newcastrocameraphotography.com">Rich Wexler</a><br />
-
-    <strong>Ⓒ</strong> joey michalina mariano 2018
-  </footer>
-
-</div>
