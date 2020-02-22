@@ -58,14 +58,13 @@
     <script src="js/bootstrap.min.js"></script>
       
     <script type="text/javascript">
-    // character replace n with η
-      
-     // $(document).ready(function() {
-     //    $('h1, a, li, h2, h4, p, label').each(function(idx, el){
-     //      let newText = el.textContent.replace(/n/g, "η")
-     //      el.textContent = newText
-     //    })
-     // });
+      // character replace n with η
+      $(document).ready(function() {
+         $('h2, h4, a, p, #show-wrapper').each(function(idx, el){
+           let newText = el.textContent.replace(/n/g, "η")
+           el.textContent = newText
+         })
+      });
     </script>
   </body>
 </html>
