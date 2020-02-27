@@ -1,0 +1,21 @@
+  <div class="row">
+
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+      <h2 >previous shows:</h2>&nbsp;&nbsp;&nbsp;
+      <% if @events %>
+        <% @events.each do |event| %>
+          <ul>
+            <li><a href='<%= event['uri'].downcase %>'>songkick.com link</a>
+            <li><%= event['displayName'].downcase %></li>
+            <li>city: <%= event['location']['city'].downcase %></li>
+            <li>venue: <a href="<%= event['venue']['uri'] %>"><%= event['venue']['displayName'].downcase %></a></li>
+          </ul>
+        <% end %>
+      <% else %>
+        <ul>
+          <li>no shows have been announced.</li>
+        </ul>
+      <% end %>
+    </div>
+
+  </div>
