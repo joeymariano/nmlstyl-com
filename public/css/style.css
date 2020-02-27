@@ -209,7 +209,18 @@ a:active {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  #main-list-wrapper{
+    display: inline;
+  }
+  #social-links-div{
+    text-align: left;
+    margin-right:0;
+  }
 
+  h2{
+    font-size: 1.6em;
+    letter-spacing:.8em;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
